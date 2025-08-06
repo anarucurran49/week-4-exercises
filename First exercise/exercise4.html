@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercise 4</title>
+  </head>
+  <body>
+    <h1>Try diffrent attributes for input tags</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="John Wick"
+      /><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="JohnWick666@fafo.org"
+      /><br /><br />
+
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        step="1"
+        max="120"
+        placeholder="48"
+      /><br /><br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        placeholder="Enter your password"
+      /><br /><br />
+
+      <label for="rating">Rate us:</label>
+      <select id="rating" name="rating">
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option></select
+      ><br /><br />
+      <label for="feedback">Feedback:</label><br />
+      <textarea
+        id="feedback"
+        name="feedback"
+        rows="4"
+        cols="50"
+        placeholder="Enter your feedback here"
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

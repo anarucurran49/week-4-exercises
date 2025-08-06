@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercise 7</title>
+    </head>
+    <body>
+        <card>
+        <fieldset>
+        <h1>Registration form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>Please fill out the form below to register your personal information.</p>
+        <form action="https://example.com/submit" method="post" enctype="multipart/form-data">
+            <label for="profilePicture">Profile picture:</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+            <br><br>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Enter name" required>
+            <br><br>
+            <label for="date">Date of birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="gender" required>
+                <option value="">Please select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
+        </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>User Account Information</legend>
+                <p>Please provide your account details below.</p>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>Please provide your contact details below.</p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <br><br>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            <br><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter address" required></textarea>
+            <br><br>
+            <label for="PreferredContactMethod">Preferred contact method:</label>
+            <select id="PreferredContactMethod" name="preferredContactMethod" required>
+                <option value="">Please select</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="mail">Mail</option>
+                <option value="in_person">In person</option>
+            </select>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Subscribe</legend>
+            <label for="newsletter">Subscribe to newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+            <p>Please read and agree to the terms and conditions before submitting.</p>
+            <label for="terms">I agree to the terms and conditions:</label>
+            <input type="checkbox" id="terms" name="terms" value="agree" required>
+        </fieldset>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        </fieldset>
+        </card>
+            
+
+
+
+    </body>
+</html>
