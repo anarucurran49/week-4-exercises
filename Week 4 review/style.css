@@ -1,0 +1,33 @@
+
+h1 {
+    color: white;
+    padding: 16px;
+}
+.card-img {
+    width: 300px;
+}
+.link {
+    color: white;
+    font-weight: bold;
+}
+.card1 {
+    padding: 16px;
+    margin: 16px;
+    background-color: #12ee56;
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.card2 {
+    margin: 16px;
+}
+
+body {
+    background-color: #141414;
+    display: flex; 
+    color: white;
+
+}
+.link{
+margin: 16px;
+}
